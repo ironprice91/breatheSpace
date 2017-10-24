@@ -1,0 +1,79 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+@font-face {
+	font-family: FuturaStd-BookOblique;
+	src: url(../fonts/FuturaStd-BookOblique.otf);
+}
+
+@font-face {
+	font-family: FuturaStd-Book;
+	src: url(../fonts/FuturaStd-Book.otf);
+}
+
+@font-face {
+	font-family: FuturaStd-LightOblique;
+	src: url(../fonts/FuturaStd-LightOblique.otf);
+}
+
+@font-face {
+	font-family: TrajanPro-Regular;
+	src: url(../fonts/TrajanPro-Regular.otf);
+}
+
+body,
+html,
+.custom_container,
+.custom_row {
+  height: 100%;
+}
+
+.center_wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+	font-size: 100px;
+}
+
+.list {
+	margin-top: 50px;
+}
+
+.list>ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.list>ul>li {
+	font-size: 25px;
+	display: inline;
+	font-family: TrajanPro-Regular, Helvetica, Arial, sans-serif;
+}
+
+.list>ul>li:hover {
+	cursor: pointer;
+}
+
+.futura {
+  font-family: FuturaStd-Book, Helvetica, Arial, sans-serif;
+}
+
+.futura-ob {
+  font-family: FuturaStd-BookOblique, Helvetica, Arial, sans-serif;
+}
+
+.futura-light {
+  font-family: FuturaStd-LightOblique, Helvetica, Arial, sans-serif;
+}
+
+.color-gold {
+	color: #AB892E;
+}
+

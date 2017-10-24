@@ -1,0 +1,25 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body, html, .custom_container, .custom_row{
+  height: 100%;
+}
+
+.center_wrapper {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.list > ul {
+  list-style-type: none;
+  padding: 0;
+  & > li {
+    display: inline;
+  }
+}
+
+
